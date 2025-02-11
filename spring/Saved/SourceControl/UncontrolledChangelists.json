@@ -1,0 +1,18 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"/Users/son-eunsu/Documents/Unreal Projects/Spring-Winter/spring/Content/Blueprints/Game/BP_SpringGameMode.uasset",
+				"/Users/son-eunsu/Documents/Unreal Projects/Spring-Winter/spring/Content/Blueprints/Character/BP_SpringCharacter.uasset",
+				"/Users/son-eunsu/Documents/Unreal Projects/Spring-Winter/spring/Content/ThirdPerson/Maps/ThirdPersonMap.umap",
+				"/Users/son-eunsu/Documents/Unreal Projects/Spring-Winter/spring/Content/Doggy/Blueprints/AB_Doggy.uasset",
+				"/Users/son-eunsu/Documents/Unreal Projects/Spring-Winter/spring/Content/ThirdPerson/Input/Actions/IA_Look.uasset",
+				"/Users/son-eunsu/Documents/Unreal Projects/Spring-Winter/spring/Content/ThirdPerson/Input/IMC_Default.uasset",
+				"/Users/son-eunsu/Documents/Unreal Projects/Spring-Winter/spring/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3.uasset"
+			]
+		}
+	]
+}
