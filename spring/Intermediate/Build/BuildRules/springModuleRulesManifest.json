@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"/Users/son-eunsu/Documents/Unreal Projects/Spring-Winter/spring/Source/spring/spring.Build.cs",
-		"/Users/son-eunsu/Documents/Unreal Projects/Spring-Winter/spring/Source/spring.Target.cs",
-		"/Users/son-eunsu/Documents/Unreal Projects/Spring-Winter/spring/Source/springEditor.Target.cs"
-	],
-	"EngineVersion": "5.5.2"
-}
