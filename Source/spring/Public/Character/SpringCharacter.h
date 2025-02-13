@@ -30,7 +30,7 @@ class ASpringCharacter : public ACharacter
 	UCameraComponent* FollowCamera;
 
 	/** Post Process  */
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "PostProcessSettings", meta = (AllowPrivateAccess = "true"))
 	UPostProcessComponent* PostProcessComponent;
 	
 	/** MappingContext */

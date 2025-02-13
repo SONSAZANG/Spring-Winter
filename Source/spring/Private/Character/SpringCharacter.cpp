@@ -44,11 +44,12 @@ ASpringCharacter::ASpringCharacter()
 	GetCharacterMovement()->SetPlaneConstraintNormal(FVector::UnitY());
 	
 	// Create a camera boom (pulls in towards the player if there is a collision)
+	const float TargetArmLength = 500.f;
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
 	CameraBoom->SetupAttachment(RootComponent);
 	CameraBoom->SetUsingAbsoluteRotation(true);
 	CameraBoom->SetWorldRotation(FRotator(0.f, -270.f, 0.f));
-	CameraBoom->TargetArmLength = 600.f;
+	CameraBoom->TargetArmLength = TargetArmLength;
 	CameraBoom->bDoCollisionTest = false;
 	CameraBoom->bUsePawnControlRotation = false;
 	
@@ -64,9 +65,9 @@ ASpringCharacter::ASpringCharacter()
 	PostProcessSettings.bOverride_DepthOfFieldFstop = true;
 	PostProcessSettings.DepthOfFieldFstop = .2f;
 	PostProcessSettings.bOverride_DepthOfFieldSensorWidth = true;
-	PostProcessSettings.DepthOfFieldSensorWidth = 100.f;
+	PostProcessSettings.DepthOfFieldSensorWidth = 30.f;
 	PostProcessSettings.bOverride_DepthOfFieldFocalDistance = true;
-	PostProcessSettings.DepthOfFieldFocalDistance = 1000.f;
+	PostProcessSettings.DepthOfFieldFocalDistance = TargetArmLength;
 	PostProcessComponent->bEnabled = true;
 	PostProcessComponent->Settings = PostProcessSettings;
 }
